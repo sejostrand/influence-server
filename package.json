@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An app for angencies and influencers to connect",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.5",
+    "strapi-admin": "3.6.5",
+    "strapi-utils": "3.6.5",
+    "strapi-plugin-content-type-builder": "3.6.5",
+    "strapi-plugin-content-manager": "3.6.5",
+    "strapi-plugin-users-permissions": "3.6.5",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-upload": "3.6.5",
+    "strapi-plugin-i18n": "3.6.5",
+    "strapi-connector-mongoose": "3.6.5",
+    "strapi-provider-upload-do": "^3.6.6"
+  },
+  "author": {
+    "name": "Sebastian Strand"
+  },
+  "strapi": {
+    "uuid": "ae8717cf-f904-4a36-a016-5bcaaa4d7a8f"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
