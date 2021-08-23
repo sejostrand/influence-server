@@ -65,48 +65,8 @@
     "lastName": {
       "type": "string"
     },
-    "profileImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "showcase": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "instagramAccount": {
-      "type": "string"
-    },
-    "currentLocation": {
-      "type": "json"
-    },
     "lastActive": {
       "type": "datetime"
-    },
-    "available": {
-      "type": "boolean",
-      "default": true
-    },
-    "title": {
-      "type": "string"
-    },
-    "mobileNumber": {
-      "type": "string"
     }
   }
 }

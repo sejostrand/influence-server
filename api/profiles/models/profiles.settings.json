@@ -8,24 +8,12 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "displayTitle": {
       "type": "string"
-    },
-    "avatar": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     },
     "reel": {
       "collection": "file",
@@ -37,6 +25,36 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ]
+    },
+    "activeLocation": {
+      "type": "json"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "tags": {
+      "collection": "tags"
+    },
+    "displayName": {
+      "type": "string"
     }
   }
 }
