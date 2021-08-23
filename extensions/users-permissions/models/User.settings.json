@@ -92,9 +92,6 @@
     "instagramAccount": {
       "type": "string"
     },
-    "mobileNumber": {
-      "type": "biginteger"
-    },
     "currentLocation": {
       "type": "json"
     },
@@ -106,6 +103,9 @@
       "default": true
     },
     "title": {
+      "type": "string"
+    },
+    "mobileNumber": {
       "type": "string"
     }
   }
